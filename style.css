@@ -1,0 +1,146 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f7fafc;
+      padding-inline: 3em;
+    }
+
+    .container {
+      /* max-width: 1200px; */
+      /* margin: 0 auto; */
+      /* padding: 2rem; */
+      margin-top: 10em;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .hero-content {
+        width: min(500px, 80%);
+    }
+
+    .hero-image {
+        width: min(900px, 80%);
+    }
+
+    .logo {
+        /* margin-top: 0; */
+        font-size: 3.5em;
+        font-weight: 1000;
+        text-decoration: none;
+        color: #3182ce;
+    }
+
+    .hero-content h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .hero-content p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 1rem;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #4299e1;
+      color: #fff;
+      font-size: 1.125rem;
+      font-weight: 600;
+      padding: 1rem 2rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #3182ce;
+    }
+
+    main {
+       /* background-color: black; */
+    }
+
+    .features {
+      margin-top: 4rem;
+    }
+
+    .feature-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3rem;
+    }
+
+    .feature-card {
+      width: min(600px, 90vw);
+      background-color: #fff;
+      border-radius: 1rem;
+      padding: 1rem;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+
+    .feature-card img {
+      width: 95%;
+      height: auto;
+    }
+
+    .feature-card h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    .features h2 {
+      font-size: 1.7rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .feature-card p {
+      font-size: 1rem;
+    }
+
+    .download-section {
+      margin-top: 4rem;
+      text-align: center;
+    }
+
+    .download-section h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
+      text-wrap: wrap;
+    }
+
+    .download-buttons a {
+      display: inline-block;
+      margin: 0 1rem;
+    }
+
+    .download-buttons img {
+      max-width: 200px;
+      height: auto;
+    }
+
+    footer {
+      background-color: #4299e1;
+      color: #fff;
+      padding: 1.5rem 0;
+      text-align: center;
+      margin-top: 4rem;
+    }
